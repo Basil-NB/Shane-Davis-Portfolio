@@ -116,7 +116,7 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
+      title: "Shift Supervisor",
       company_name: "Starbucks",
       icon: starbucks,
       iconBg: "#383E56",
