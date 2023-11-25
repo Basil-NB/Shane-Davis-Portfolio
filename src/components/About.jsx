@@ -37,7 +37,7 @@ const About = () => {
 
       <motion.p variants={fadeIn("", "", 0.1, 1)}
       className='mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]'>
-      I am a skilled Full Stack Web Developer with a strong background in designing and creating user-friendly web applications. I excel in both front-end and back-end technologies and am committed to delivering high-quality websites. I continuously seek to expand my knowledge and enjoy collaborating with teams to tackle complex challenges in web development.
+      I am a skilled Full Stack Web Developer specializing in creating user-friendly web applications. Proficient in both front-end and back-end technologies, I'm committed to delivering high-quality websites. I have a passion for continuous learning, a collaborative approach, and I excel in tackling complex challenges in web development.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

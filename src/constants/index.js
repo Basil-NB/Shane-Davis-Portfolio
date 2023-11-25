@@ -18,11 +18,14 @@ import {
     meta,
     starbucks,
     tesla,
+    uconn,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    Petinfo,
+    art,
   } from "../assets";
   
   export const navLinks = [
@@ -130,14 +133,14 @@ import {
     {
       title: "Full Stack Web development Graduate",
       company_name: "UCONN Coding Bootcamp",
-      icon: tesla,
+      icon: uconn,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - July 13th, 2023",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked with other developers in an Agile system to complete projects.",
+        "Learned industry focused technologies and utilized them in my own code.",
+        "Participated in live coding sessions, giving and receving constructive feedback on code.",
       ],
     },
     // {
@@ -197,68 +200,68 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Paws Plus",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        " With this application, persons seeking to adopt a pet are able to use PawsPlus+ to find dog and cat listings at animal shelters near them from the comfort of wherever they have internet access. Users are provided with some contact information to reach out about any pets they are interested in, as well as save their favorites for later viewing if they have yet to decide on their new pet.",
+      tags: [
+        {
+          name: "JavaScript",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Petinfo,
+      source_code_link: "https://github.com/molyneauxk93/PawsPlus-",
+    },
+    {
+      name: "Offres D'Art",
+      description:
+        "Offres D'Art is an elegant and user-friendly ecommerce website that provides art enthusiasts with a platform to browse and purchase art pieces. The website offers a wide range of artwork from various artists, allowing users to explore and find unique pieces that resonate with their taste and style.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "mongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "apollo",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: art,
+      source_code_link: "https://github.com/Cashew1337/Art-Dealer",
     },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+    // {
+    //   name: "Trip Guide",
+    //   description:
+    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    //   tags: [
+    //     {
+    //       name: "nextjs",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "supabase",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
